@@ -36,8 +36,8 @@ Após a escolha, o script realizará o escaneamento e exibirá os IPs ativos.
 ```mermaid
 flowchart TD
     A[Início] --> B{Escolher método de escaneamento}
-    B -->|1. Inserção manual| C[Usuário insere a rede]
-    B -->|2. Detecção automática| D[Obtém IP e máscara da interface]
+    B --> C[Inserção manual da rede]
+    B --> D[Detecção automática da rede]
     C --> E[Escaneia a rede]
     D --> E
     E --> F[Executa ping em cada IP]
