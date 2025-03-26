@@ -4,7 +4,7 @@ Este script escaneia a rede local para identificar os IPs ativos. Ele pode detec
 
 ## Funcionalidades
 
-- Descoberta automática da rede utilizando a interface de rede da máquina.
+- Descoberta automática da rede utilizando a interface de rede da máquina (precisa ser inserida no código main).
 - Entrada manual para definir a rede a ser escaneada.
 - Uso de `ping` para verificar quais IPs estão ativos na rede.
 - Execução paralela para melhorar a performance do escaneamento.
@@ -22,7 +22,7 @@ pip install netifaces
 Execute o script com:
 
 ```bash
-python scanner.py
+python main.py
 ```
 
 Ao iniciar, você terá duas opções:
